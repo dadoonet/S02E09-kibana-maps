@@ -123,6 +123,8 @@ echo "#####################"
 echo -ne '\n'
 
 open "$KIBANA_URL/app/canvas/"
+open "$KIBANA_URL/app/home/"
+open "$KIBANA_URL/app/dev_tools/"
 open "$KIBANA_URL/app/maps/"
 open "https://maps.elastic.co/"
 
