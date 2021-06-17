@@ -1,0 +1,16 @@
+# Show the dataset
+GET /kibana_sample_data_flights/_search
+
+# Show the delay types
+GET /kibana_sample_data_flights/_search
+{
+  "size": 0,
+  "aggs": {
+    "delays": {
+      "terms": {
+        "field": "FlightDelayType"
+      }
+    }
+  }
+}
+
