@@ -122,7 +122,8 @@ echo "### Demo is ready ###"
 echo "#####################"
 echo -ne '\n'
 
-open "$KIBANA_URL/app/canvas#/"
+open "$KIBANA_URL/app/canvas/"
+open "$KIBANA_URL/app/maps/"
 open "https://maps.elastic.co/"
 
 echo "If not yet there, paste the following script in Dev Tools:"
